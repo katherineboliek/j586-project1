@@ -1,0 +1,463 @@
+/*start top bar*/
+.top-text {
+  text-align: right;
+  padding-top: 1em;
+  color: #fff;
+}
+/*end top bar*/
+
+/*start menu bar*/
+
+.opt {
+  position: relative;
+  top: -5.5em;
+}
+
+div.dashboard-icon { position: absolute; left: 49px; }
+div.dashboard-hover { position: absolute; left: 50px; }
+div#dash:hover .dashboard-hover {
+  display: none;
+}
+
+div.people-icon, div.people-hover { position: absolute; left: 50px; }
+div#people:hover .people-hover {
+  display: none;
+}
+
+div.messaging-icon, div.messaging-hover { position: absolute; left: 50px; }
+div#messaging:hover .messaging-hover {
+  display: none;
+}
+
+div.tag-icon { position: absolute; left: 46px; }
+div.tag-hover { position: absolute; left: 50px; }
+div#tag:hover .tag-hover {
+  display: none;
+}
+
+div.writing-icon { position: absolute; left: 50px; }
+div.writing-hover { position: absolute; left: 55px; }
+div#writing:hover .writing-hover {
+  display: none;
+}
+
+div.graph-icon { position: absolute; left: 50px; }
+div.graph-hover { position: absolute; left: 58px; }
+div#graph:hover .graph-hover {
+  display: none;
+ }
+/*end menu bar*/
+
+/*start dashboard-bar*/
+.dashboard-bar {
+  background:#33cc66;
+  border-radius: 0.4em;
+  margin: 1em -0.3em 2em -0.3em;
+  padding: 0.3em 0 0.5em 0;
+}
+
+.dash-text {
+  font-size: 2em;
+  color: #ffffff;
+}
+
+#searchbar {
+  border: 1px solid #2db55b;
+  border-radius:4px;
+  margin: 1.2em 0 0 1em;
+  width: 10em;
+  background: white url(sprites.png) -288px -705px no-repeat;
+  width: 13.8em;
+  height: 30px;
+}
+
+@media screen and (max-width: 640px) {
+  #searchbar {
+    background: white url(sprites.png) -340px -705px no-repeat;
+    width: 10em;
+    height: 30px;
+  }
+}
+/*end dashboard-bar*/
+
+/*start body content*/
+body {
+  font-family: "Myriad Pro", san-serif;
+}
+
+h2 {
+  color: #50a7f5;
+  font-size: 1.8em;
+}
+
+.row {
+  margin-left: 0px;
+} /*code by davidkonrad found at http://stackoverflow.com/questions/15728336/the-row-is-larger-than-the-container-in-bootstrap*/
+
+  /*start announcements*/
+.bottom-border {
+  border-bottom: 1px solid #e9e9e9;
+  -moz-box-shadow: 0 0.3em 0.3em -0.2em #ededed;
+  -webkit-box-shadow: 0 0.3em 0.3em -0.2em #ededed;
+  box-shadow: 0 0.3em 0.3em -0.2em #ededed;
+}
+
+.right-border {
+    border-right: 1px solid #e9e9e9;
+}
+
+.left-border {
+    border-left: 1px solid #e9e9e9;
+}
+
+.announcements {
+  font-size: 0.9em;
+  padding: 1.2em 0.2em 0 0;
+}
+
+.orange {
+  color: #fe7f13;
+  padding-left: 0.4em;
+}
+
+a.left-arrow-button, a.right-arrow-button {
+  display: inline-flex;
+  margin: 0.8em 0 0 0;
+}
+
+  /*end announcements*/
+
+.full-content {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
+  border-radius: 1em;
+  background-color: #fff;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f6f6f6), to(transparent));
+  background-image: -webkit-linear-gradient(top, #f6f6f6, transparent);
+  background-image: -moz-linear-gradient(top, #f6f6f6, transparent);
+  background-image: -o-linear-gradient(top, #f6f6f6, transparent);
+  background-image: linear-gradient(to bottom, #f6f6f6, transparent);
+  background-repeat:no-repeat;
+  background-size:100% 200px;
+  margin: -0.8em;
+}  /*by seanjacob http://stackoverflow.com/questions/5016796/html-css-gradient-that-stops-at-a-particular-height-and-continues-further-with-a*/
+
+.content {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #eaeaea;
+  background-color: #fff;
+  padding-right: 1em;
+  margin: 1.2em 1.2em 1.2em 1.2em;
+}
+
+.test {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #eaeaea;
+    background-color: #fff;
+}
+/*start tasks*/
+
+.task-section {
+  margin: 0 0em 0 -1.1em;
+}
+
+div.gray-gear {
+  margin: 1.5em 0 0 0;
+}
+
+.task-bar {
+  margin-bottom: 0.5em;
+}
+
+.task-option {
+  color: #2498f3;
+  border-bottom-style: solid;
+  border-width: 0.1em;
+  border-color: #eaeaea;
+  display: flex;
+  margin: 0 0 0.5em 0;
+  padding: 0 0 0.3em 0.7em;
+}
+
+.task-option:hover {
+  color: #cccccc;
+}
+
+.task {
+  font-size: 13pt;
+  color: #ffffff;
+}
+
+.circle {
+	width: 1.7em;
+	height: 1.7em;
+	background: #32cc66;
+	-moz-border-radius: 1.7em;
+	-webkit-border-radius: 1.7em;
+	border-radius: 1.7em;
+  padding: 0.13em 0 0 0.55em;
+  margin: 0.5em 0 0.5em 0;
+}
+
+div.task-option:hover .circle {
+  background: #cccccc;
+}
+
+.task-person { position: absolute; left: 2em; }
+.task-person-hover { position: absolute; left: 2.15em; top: 0.3em; }
+
+.task-text {
+  font-size: 1.1em;
+  margin: 0.6em 0 0 0;
+}
+
+.counter {
+  border-style: solid;
+  border-width: 0.1em;
+  border-color: #cccccc;
+  border-radius: 0.25em;
+  display: flex;
+  max-height: 2em;
+  min-width: 4em;
+  max-width: 4.5em;
+  margin-left: 0.6em;
+}
+
+.task-person {
+  margin: 0.25em 0 0.1em 0.15em;
+}
+
+.task-count {
+  font-size: 12pt;
+  padding-left: 0.2em;
+  margin: 0.25em 0 0.3em 1.9em;
+  display: inline-flex;
+}
+/*end tasks*/
+/*start recommendation*/
+.rec-section {
+  margin: 0 -1.1em 0 -1.1em;
+}
+
+.rec-title {
+  border-bottom-style: solid;
+  border-width: 0.1em;
+  border-color: #e9e9e9;
+  padding-left: 1em;
+  margin: -0.8em 0 0.5em 0;
+}
+
+.category {
+  font-size: 0.7em;
+  margin-bottom: 0em;
+}
+
+.rec-text {
+  line-height: 1em;
+}
+
+.recommendation-option {
+  color: #777777;
+  border-bottom-style: dotted;
+  border-width: 0.1em;
+  border-color: #cccccc;
+  display: flex;
+  margin: 0 1em 0.5em 0.5em;
+  padding-left: 0em;
+}
+
+.recommendation-option:hover {
+  color: #2498f3;
+}
+/*end recommendation*/
+
+/*start analytics*/
+.analytics {
+  color: #999999;
+  margin-left: ;
+}
+.pie {
+  margin-top: 1em;
+}
+
+.checks {
+  padding: 2em 0 2em 4em;
+}
+
+.social-checks {
+  margin: 1em 0.25em 0 0.25em;
+  display: inline;
+}
+
+div.facebook-label, div.twitt-label, div.foursq-label, div.google-label {
+  border-radius: 0.35em;
+  padding: 0.15em 0.8em 0 0.5em;
+  color: #ffffff;
+  font-weight: normal;
+  display: inline;
+}
+
+.facebook-label {
+  background-color: #114570;
+}
+
+.twitt-label {
+  background-color: #2298f4;
+}
+
+.foursq-label {
+  background-color: #3a599b;
+}
+
+.google-label {
+  background-color: #31cc66;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"] + label span {
+  display: inline-block;
+  width: 23px;
+	height: 21px;
+  margin:-1px 0 0 0;
+  vertical-align:middle;
+  background: url(sprites.png) -215px -317px no-repeat;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked + label span {
+  background: url(sprites.png) -216px -263px no-repeat;
+}/*code from http://webdesign.tutsplus.com/tutorials/quick-tip-easy-css3-checkboxes-and-radio-buttons--webdesign-8953*/
+
+/*end analytics*/
+
+/*start boxes*/
+
+.boxes {
+  margin-top: 1em;
+  align-content: center;
+}
+
+.white-box {
+  border-radius: 3px;
+  -moz-box-shadow: 0 2px 3px 3px #b2b2b2;
+  -webkit-box-shadow: 0 2px 3px 3px #b2b2b2;
+  box-shadow: 0 2px 3px 3px #b2b2b2;
+  margin: 2em 2em 2em 3em;
+  max-width:15.5em;
+  max-height: 15.3em;
+}
+
+.contacts, .customers {
+    background-color: #2394ee;
+    margin: -1.3em -1.1em 0.5em -1.1em;
+    padding: 0.3em 0 0.01em 0;
+}
+
+.text-lg {
+  font-size: 2em;
+  text-align: center;
+  color: #fff;
+  margin-bottom: -0.3em;
+}
+.text-sm {
+  font-size: 1em;
+  text-align: center;
+  color: #fff;
+}
+
+div.green-body {
+  display: block;
+  margin: 0 auto;
+  margin-top: -1.8em;
+}
+
+div.orange-body {
+  display: block;
+  margin: 0 auto;
+  margin-top: -1.8em;
+}
+
+div.chart-green {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5em;
+}
+
+div.chart-orange {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5em;
+}
+
+/*end boxes*/
+/*start blue box*/
+.slide {
+  padding: 1em;
+}
+
+.blue-box {
+  border-radius: 3px;
+  color: #fff;
+  background-color: #2498f4;
+  padding: 1.5em 3em 1.5em 3em;
+  margin: 0 auto;
+}
+
+.left-arrow-did-button {
+  float: left;
+  position: relative;
+    top: 2em;
+    left: -3em;
+}
+
+.right-arrow-did-button {
+  float: right;
+  position: relative;
+    top: 2em;
+    left: 3em;
+
+}
+
+/*http://codepen.io/xram/*/
+/*end blue box*/
+/*start promo*/
+#promo {
+  background-color: #2498f4;
+}
+
+.promo-box {
+  border-radius: 5px;
+  -moz-box-shadow: 0 2px 3px 1px #196aaa;
+  -webkit-box-shadow: 0 2px 3px 1px #196aaa;
+  box-shadow: 0 2px 3px 1px #196aaa;
+  margin: 2em 1em 2em 1em;
+  width: 19.9em;
+  height: 11.45em;
+  background-color: #ffffff;
+}
+
+.promo-one {
+  margin-left: -1.05em;
+}
+
+.promo-two {
+  margin: -0.75em 0 0 -0.6em;
+}
+
+.promo-three {
+  margin: 0 0 0 0.05em;
+}
+/*end promo*/
+/*end body content*/
+
+/*start footer*/
+.footer {
+  margin-top: 2em;
+}
+/*end footer*/

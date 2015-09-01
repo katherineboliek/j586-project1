@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Project 1</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+        <link href="css/sprites.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="top-bar row top-text">
+      <div class="col-lg-10 col-sm-10 col-xs-6">
+        <p>MINI of Raleigh</p>
+      </div>
+      <div class="col-sm-1 col-xs-4 question">
+      </div>
+      <div class="col-sm-1 col-xs-4 gear">
+      </div>
+    </div> <!--end of top bar-->
+
+    <div class="row menu-background">
+      <div class="opt">
+        <div class="col-xs-1 col-lg-offset-3 col-md-offset-3" id="dash">
+          <div class="dashboard-icon"></div>
+          <div class="dashboard-hover"></div>
+        </div>
+        <div class="col-xs-1" id="people">
+          <div class="people-icon"></div>
+          <div class="people-hover"></div>
+        </div>
+        <div class="col-xs-1" id="messaging">
+          <div class="messaging-icon"></div>
+          <div class="messaging-hover"></div>
+        </div>
+        <div class="col-xs-1" id="tag">
+          <div class="tag-icon"></div>
+          <div class="tag-hover"></div>
+        </div>
+        <div class="col-xs-1" id="writing">
+          <div class="writing-icon"></div>
+          <div class="writing-hover"></div>
+        </div>
+        <div class="col-xs-1" id="graph">
+          <div class="graph-icon"></div>
+          <div class="graph-hover"></div>
+        </div>
+      </div>
+    </div> <!--end of navigation-->
+
+    <div class="container">
+      <div class="row dashboard-bar"> <!-- start dashboard -->
+        <div class= "col-md-9 col-sm-8 col-xs-6">
+          <h2 class="dash-text">Dashboard</h2>
+        </div>
+        <div class= "col-md-3 col-sm-4 col-xs-6">
+            <form>
+              <div>
+                <input type="search" name="search" id="searchbar"/>
+              </div>
+            </form>
+        </div>
+      </div>
+    </div> <!--end of dashboard-->
+
+    <div class="container">
+      <div class="full-content">
+        <div class="content">
+          <div class="row bottom-border"> <!-- start announcements -->
+            <div class="col-md-2 col-sm-12 col-xs-12 right-border">
+              <p class="announcements orange">ANNOUNCEMENTS</p>
+            </div>
+            <div class="col-md-9 col-sm-10 col-xs-10 right-border">
+              <p class="announcements">Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</p>
+            </div>
+            <div class="col-md-1 col-sm-2 col-xs-2">
+              <a href="#" class="left-arrow-button"></a>
+              <a href="#" class="right-arrow-button"></a>
+            </div>
+          </div> <!--end of announcements-->
+
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"> <!-- start task/recommendation -->
+              <div class="row task-section"> <!-- start task -->
+                <div class="row task-bar">
+                  <div class="col-xs-10">
+                    <h2>Tasks</h2>
+                  </div>
+                  <div class="col-xs-2">
+                    <div class="gray-gear"></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="row task-option">
+                    <div class="col-lg-1 col-md-1 col-xs-1 circle">
+                      <p class="task">1</p>
+                    </div>
+                    <div class="col-lg-8 col-md-7 col-xs-8">
+                      <p class="task-text">Welcome Contacts</p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-3">
+                      <div class="counter">
+                        <div class="task-person"> </div>
+                        <div class="task-person-hover"> </div>
+                        <p class="task-count">32</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row task-option">
+                    <div class="col-lg-1 col-md-1 col-xs-1 circle">
+                      <p class="task">2</p>
+                    </div>
+                    <div class="col-lg-8 col-md-7 col-xs-8">
+                      <p class="task-text">Provide Responses</p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-3">
+                      <div class="counter">
+                        <div class="task-person"> </div>
+                        <div class="task-person-hover"> </div>
+                        <p class="task-count">36</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row task-option">
+                    <div class="col-lg-1 col-md-1 col-xs-1 circle">
+                      <p class="task">3</p>
+                    </div>
+                    <div class="col-lg-8 col-md-7 col-xs-8">
+                      <p class="task-text">Review Activity</p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-3">
+                      <div class="counter">
+                        <div class="task-person"> </div>
+                        <div class="task-person-hover"> </div>
+                        <p class="task-count">36</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row task-option bottom-border">
+                    <div class="col-lg-1 col-md-1 col-xs-1 circle">
+                      <p class="task">4</p>
+                    </div>
+                    <div class="col-lg-8 col-md-7 col-xs-8">
+                      <p class="task-text">Reach Out</p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-3">
+                      <div class="counter">
+                        <div class="task-person"> </div>
+                        <div class="task-person-hover"> </div>
+                        <p class="task-count">3</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row rec-section"> <!-- start recommendations -->
+                <div class="row rec-title">
+                  <h2>Recommendations</h2>
+                </div>
+                <div class="row recommendation-option">
+                  <div class="col-xs-1">
+                    <div class="recommendation-note-icon"></div>
+                  </div>
+                  <div class="col-xs-11">
+                    <p class="category">Article</p>
+                    <p class="rec-text">7 steps to getting more Fans</p>
+                  </div>
+                </div>
+                <div class="row recommendation-option">
+                  <div class="col-xs-1">
+                    <div class="recommendation-note-icon"></div>
+                  </div>
+                  <div class="col-xs-11">
+                    <p class="category">Article</p>
+                    <p class="rec-text">Increase traction with more interactions</p>
+                  </div>
+                </div>
+                <div class="row recommendation-option">
+                  <div class="col-xs-1">
+                    <div class="recommendation-check"></div>
+                  </div>
+                  <div class="col-xs-11">
+                    <p class="category">Checklist</p>
+                    <p class="rec-text">Creating a Promotion</p>
+                  </div>
+                </div>
+                <div class="row recommendation-option">
+                  <div class="col-xs-1">
+                    <div class="recommendation-bulb"></div>
+                  </div>
+                  <div class="col-xs-11">
+                    <p class="category">Tip</p>
+                    <p class="rec-text">Share More</p>
+                  </div>
+                </div>
+              </div>
+            </div> <!-- close col 4 -->
+
+            <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12 left-border">
+              <div class="row analytics"> <!--start analytics-->
+                <h2>Analytics</h2>
+                <div class="col-lg-9 col-md-9 col-sm-12 right-border">
+                  <p>ACTIVITY</p>
+                  <div class="bar-chart"></div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                  <div class="row">
+                    <div class="col-md-12 col-xs-6 pie">
+                      <p>CHANNELS</p>
+                      <div class="top-pie-chart"></div>
+                    </div>
+                    <div class="col-md-12 col-xs-6 pie">
+                      <p>REFERRALS</p>
+                      <div class="lower-pie-chart"></div>
+                    </div>
+                  </div>
+                </div>
+              </div> <!--end analytics-->
+
+              <div class="row bottom-border checks"> <!--start checkboxes-->
+                <div class="social-checks">
+                  <input type="checkbox" id="facebook" name="facebook" checked="checked" />
+                  <label for="facebook"><span></span><div class="facebook-label">Facebook</div></label>
+                </div>
+                <div class="social-checks">
+                  <input type="checkbox" id="twitt" name="twitter" checked="checked" />
+                  <label for="twitt"><span></span><div class="twitt-label">Twitter</div></label>
+                </div>
+                <div class="social-checks">
+                  <input type="checkbox" id="foursq" name="foursquare" />
+                  <label for="foursq"><span></span><div class="foursq-label">Foursquare</div></label>
+                </div>
+                <div class="social-checks">
+                  <input type="checkbox" id="google" name="facebook" />
+                  <label for="google"><span></span><div class="google-label">Google+</div></label>
+                </div>
+              </div> <!--end checkboxes-->
+
+              <div class="row bottom-border"> <!--start contacts/customers-->
+                <div class="boxes">
+                  <div class="col-md-6 col-xs-12 white-box">
+                      <div class="green-body"></div>
+                      <div class="contacts">
+                        <p class="text-lg">75 CONTACTS</p>
+                        <p class="text-sm">4 INFLUENCERS</p>
+                      </div>
+                      <div class="chart-green"></div>
+                  </div>
+                  <div class="col-md-6 col-xs-12 white-box">
+                    <div class="orange-body"></div>
+                    <div class="contacts">
+                      <p class="text-lg">17 CUSTOMERS</p>
+                      <p class="text-sm">0 INFLUENCERS</p>
+                    </div>
+                    <div class="chart-orange"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row slide">
+                <div class="blue-box">
+                  <a href="#" class="left-arrow-did-button"></a>
+                  <a href="#" class="right-arrow-did-button"></a>
+                  <p>DID YOU KNOW?</p>
+                  <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.</p>
+                </div>
+              </div>
+            </div> <!--close col 8 -->
+          </div>
+
+          <div class="row bottom-border" id="promo"> <!-- start promo -->
+            <div class="col-lg-4 col-sm-12 promo-box">
+              <div class="promo-one"></div>
+            </div>
+            <div class="col-lg-4 col-sm-12 promo-box">
+              <div class="promo-two"></div>
+            </div>
+            <div class="col-lg-4 col-sm-12 promo-box">
+              <div class="promo-three"></div>
+            </div>
+          </div> <!-- end promo -->
+        </div>
+      </div> <!-- body content-->
+    </div> <!-- close container-->
+
+    <div class="footer">
+      <div class="container-fluid">
+        <div class="row gray-box">
+          <div class="col-md-4">
+          </div>
+          <div class="col-md-4">
+          </div>
+          <div class="col-md-4">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

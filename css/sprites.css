@@ -1,0 +1,406 @@
+.bar-chart, .chart-green, .chart-orange, .check-off, .checked-checkbox, .dashboard-hover, .dashboard-icon, .dropdown-arrow, .empty-checkbox, .fb-hover, .fb, .footer-avatar, .footer-up-arrow, .footer, .foursquare-hover, .foursquare, .gear, .graph-hover, .graph-icon, .gray-gear, .green-body, .left-arrow-button, .left-arrow-did-button, .left-arrow-did, .left-arrow, .left-banner, .lower-pie-chart, .menu-background, .messaging-hover, .messaging-icon, .orange-body, .people-hover, .people-icon, .promo-one, .promo-three, .promo-two, .question, .recommendation-bulb, .recommendation-check, .recommendation-note-icon, .right-arrow-button, .right-arrow-did-button, .right-arrow-did, .right-arrow, .right-banner, .search, .selector, .tag-hover, .tag-icon, .task-person-hover, .task-person, .top-bar, .top-pie-chart, .twitter-hover, .twitter, .writing-icon, .writing-hover, .youtube-hover, .youtube{
+	background: url(sprites.png) no-repeat;
+	display: block;
+}
+
+.bar-chart{
+	background-position: 61.5% 74% ;
+	width: 419px;
+	height: 187px;
+	display: block;
+	overflow: hidden;
+	width:100%;
+	height: 0;
+	padding-top: 45%;
+	background-size: 286.4%;
+}
+
+.chart-green{
+	background-position: -749px -651px ;
+	width: 192px;
+	height: 82px;
+}
+
+.chart-orange{
+	background-position: -501px -651px ;
+	width: 192px;
+	height: 82px;
+}
+
+.check-off{
+	background-position: -262px -316px ;
+	width: 22px;
+	height: 21px;
+}
+
+.checked-checkbox{
+	background-position: -216px -263px ;
+	width: 23px;
+	height: 21px;
+}
+
+.dashboard-hover{
+	background-position: -311px -383px ;
+	width: 58px;
+	height: 58px;
+}
+
+.dashboard-icon{
+	background-position: -306px -476px ;
+	width: 60px;
+	height: 73px;
+}
+
+.dropdown-arrow{
+	background-position: -169px -324px ;
+	width: 10px;
+	height: 6px;
+}
+
+.empty-checkbox{
+	background-position: -215px -317px ;
+	width: 18px;
+	height: 18px;
+}
+
+.fb-hover{
+	background-position: -450px -285px ;
+	width: 16px;
+	height: 16px;
+}
+
+.fb{
+	background-position: -449px -250px ;
+	width: 16px;
+	height: 16px;
+}
+
+.footer-avatar{
+	background-position: -301px -261px ;
+	width: 30px;
+	height: 30px;
+}
+
+.footer-up-arrow{
+	background-position: -169px -271px ;
+	width: 14px;
+	height: 9px;
+}
+
+.footer{
+	background-position: 0 25% ;
+	width: 1200px;
+	height: 60px;
+	display: block;
+	width: 100%;
+	height: 0;
+	padding-top: 4.4%;
+	background-size: 100%;
+}
+
+.foursquare-hover{
+	background-position: -416px -284px ;
+	width: 16px;
+	height: 16px;
+}
+
+.foursquare{
+	background-position: -417px -250px ;
+	width: 16px;
+	height: 16px;
+}
+
+.gear{
+	background-position: -65px -715px ;
+	width: 20px;
+	height: 20px;
+}
+
+.graph-hover{
+	background-position: -393px -383px ;
+	width: 42px;
+	height: 50px;
+}
+
+.graph-icon{
+	background-position: -387px -483px ;
+	width: 60px;
+	height: 66px;
+}
+
+.gray-gear{
+	background-position: -16px -713px ;
+	width: 20px;
+	height: 20px;
+}
+
+.green-body{
+	background-position: -259px -598px ;
+	width: 78px;
+	height: 82px;
+}
+
+.left-arrow-button{
+	background-position: -63px -314px ;
+	width: 22px;
+	height: 22px;
+}
+
+.left-arrow-did-button{
+	background-position: 0 -311px ;
+	width: 22px;
+	height: 50px;
+}
+
+.left-arrow-did{
+	background-position: -118px -314px ;
+	width: 11px;
+	height: 18px;
+}
+
+.left-arrow{
+	background-position: -321px -323px ;
+	width: 5px;
+	height: 8px;
+}
+
+.left-banner{
+	background-position: -997px -664px ;
+	width: 15px;
+	height: 40px;
+}
+
+.lower-pie-chart{
+	background-position: -135px -600px ;
+	width: 80px;
+	height: 80px;
+}
+
+.menu-background{
+	background-position: 0 11.0% ;
+	width: 1200px;
+	height: 110px;
+	display: block;
+	width: 100%;
+	height: 0;
+	padding-top: 7.6%;
+	background-size: 100%;
+}
+
+@media screen and (max-width: 640px) {
+  .menu-background {
+    background-position: 0 11.0%;
+    width: 370.37px;
+    height: 110px;
+		display: block;
+    width: 180%;
+    height: 0;
+    padding-top: 7.6%;
+    background-size: 180%;
+    min-height: 6em;
+  }
+}
+
+.messaging-hover{
+	background-position: -235px -392px ;
+	width: 57px;
+	height: 48px;
+}
+
+.messaging-icon{
+	background-position: -221px -483px ;
+	width: 60px;
+	height: 65px;
+}
+
+.orange-body{
+	background-position: -374px -602px ;
+	width: 78px;
+	height: 82px;
+}
+
+.people-hover{
+	background-position: -154px -389px ;
+	width: 62px;
+	height: 42px;
+}
+
+.people-icon{
+	background-position: -146px -486px ;
+	width: 62px;
+	height: 64px;
+}
+
+.promo-one{
+	background-position: -602px -248px ;
+	width: 263px;
+	height: 150px;
+}
+
+.promo-three{
+	background-position: -937px -437px ;
+	width: 263px;
+	height: 160px;
+}
+
+.promo-two{
+	background-position: -932px -250px ;
+	width: 268px;
+	height: 171px;
+}
+
+.question{
+	background-position: -266px -717px ;
+	width: 20px;
+	height: 20px;
+}
+
+.recommendation-bulb{
+	background-position: -505px -255px ;
+	width: 14px;
+	height: 35px;
+}
+
+.recommendation-check{
+	background-position: -554px -316px ;
+	width: 22px;
+	height: 32px;
+}
+
+.recommendation-note-icon{
+	background-position: -553px -252px ;
+	width: 19px;
+	height: 35px;
+}
+
+.right-arrow-button{
+	background-position: -63px -263px ;
+	width: 22px;
+	height: 22px;
+}
+
+.right-arrow-did-button{
+	background-position: 0 -249px ;
+	width: 22px;
+	height: 50px;
+}
+
+.right-arrow-did{
+	background-position: -117px -265px ;
+	width: 11px;
+	height: 18px;
+}
+
+.right-arrow{
+	background-position: -374px -323px ;
+	width: 5px;
+	height: 8px;
+}
+
+.right-banner{
+	background-position: -1118px -659px ;
+	width: 15px;
+	height: 40px;
+}
+
+.search{
+	background-position: -113px -715px ;
+	width: 23px;
+	height: 22px;
+}
+
+.selector{
+	background-position: -178px -722px ;
+	width: 40px;
+	height: 10px;
+}
+
+.tag-hover{
+	background-position: -80px -382px ;
+	width: 50px;
+	height: 50px;
+}
+
+.tag-icon{
+	background-position: -70px -480px ;
+	width: 58px;
+	height: 69px;
+}
+
+.task-person-hover{
+	background-position: -479px -328px ;
+	width: 20px;
+	height: 20px;
+}
+
+.task-person{
+	background-position: -428px -328px ;
+	width: 20px;
+	height: 20px;
+}
+
+.top-bar{
+	background-position: 0 0;
+	width: 1200px;
+	height: 45px;
+	display: block;
+  width:100%;
+	height: 0;
+	padding-top: 3.7%;
+	background-size: 100%;
+} /*code by http://codepen.io/heyMP/*/
+
+.top-pie-chart{
+	background-position: -18px -600px ;
+	width: 80px;
+	height: 80px;
+}
+
+.twitter-hover{
+	background-position: -383px -284px ;
+	width: 16px;
+	height: 16px;
+}
+
+.twitter{
+	background-position: -383px -250px ;
+	width: 16px;
+	height: 16px;
+}
+
+.writing-icon{
+	background-position: 0 -481px ;
+	width: 54px;
+	height: 70px;
+}
+
+.writing-hover{
+	background-position: -12px -383px ;
+	width: 45px;
+	height: 50px;
+}
+
+.youtube-hover{
+	background-position: -349px -283px ;
+	width: 16px;
+	height: 16px;
+}
+
+.youtube{
+	background-position: -349px -252px ;
+	width: 16px;
+	height: 16px;
+}
+
+/*inserted CSS*/
+.task-person-hover {
+  display: none;
+}
+
+div.task-option:hover .task-person {
+  display: none;
+}
+
+div.task-option:hover .task-person-hover {
+  display: block;
+}
