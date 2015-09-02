@@ -11,38 +11,72 @@
 .opt {
   position: relative;
   top: -5.5em;
+  margin: 0 auto;
 }
 
-div.dashboard-icon { position: absolute; left: 49px; }
-div.dashboard-hover { position: absolute; left: 50px; }
+
+#dash, #people, #messaging, #tag, #writing, #graph {
+  margin: 0 1em 0 1em;
+}
+
+@media screen and (max-width: 991px) {
+  .opt {
+    position: relative;
+    top: -5.4em;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .opt {
+    position: relative;
+    top: -1.6em;
+    left: -3.7em;
+    margin: auto;
+  }
+  #dash, #people, #messaging, #tag, #writing, #graph {
+    margin: 0 0 0 0;
+  }
+}
+
+.selector {
+  position: relative;
+    bottom: -4.9em;
+    left: 3em;
+}
+
+div.dashboard-icon { position: absolute; left: 49px; bottom: -65px;}
+div.dashboard-hover { position: absolute; left: 50px; bottom: -50px;}
 div#dash:hover .dashboard-hover {
   display: none;
 }
 
-div.people-icon, div.people-hover { position: absolute; left: 50px; }
+div.people-icon { position: absolute; left: 50px; bottom: -65px;}
+div.people-hover { position: absolute; left: 50px; bottom: -43px;}
 div#people:hover .people-hover {
   display: none;
 }
 
-div.messaging-icon, div.messaging-hover { position: absolute; left: 50px; }
+div.messaging-icon { position: absolute; left: 50px; bottom: -65px;}
+div.messaging-hover { position: absolute; left: 50px; bottom: -48px;}
 div#messaging:hover .messaging-hover {
   display: none;
 }
 
-div.tag-icon { position: absolute; left: 46px; }
-div.tag-hover { position: absolute; left: 50px; }
+div.tag-icon { position: absolute; left: 46px; bottom: -65px;}
+div.tag-hover { position: absolute; left: 50px; bottom: -46px;}
 div#tag:hover .tag-hover {
   display: none;
 }
 
-div.writing-icon { position: absolute; left: 50px; }
-div.writing-hover { position: absolute; left: 55px; }
+div.writing-icon { position: absolute; left: 50px; bottom: -65px;}
+div.writing-hover { position: absolute; left: 55px; bottom: -45px;}
 div#writing:hover .writing-hover {
   display: none;
 }
 
-div.graph-icon { position: absolute; left: 50px; }
-div.graph-hover { position: absolute; left: 58px; }
+div.graph-icon { position: absolute; left: 50px; bottom: -65px;}
+div.graph-hover { position: absolute; left: 58px; bottom: -49px;}
 div#graph:hover .graph-hover {
   display: none;
  }
@@ -275,20 +309,42 @@ div.task-option:hover .circle {
 /*end recommendation*/
 
 /*start analytics*/
+
+select#dropdown {
+  display: inline;
+  -webkit-appearance: button;
+  -moz-appearance: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dddddd;
+  color: #666666;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 14px;
+  padding: 5px 5px 5px 9px;
+  margin: -2em 0 1em 0;
+  cursor: pointer;
+  background: #ffffff url(sprites.png) no-repeat -50px -338px;
+  width: 162px;
+  height: 29px;
+  float: right;
+ /*background-size: 40px 37px; /*TO ACCOUNT FOR @2X IMAGE FOR RETINA */
+}
+
 .analytics {
   color: #999999;
-  margin-left: ;
 }
 .pie {
-  margin-top: 1em;
+  margin: 0.4em 0 0.3em -0.7em;
 }
 
 .checks {
-  padding: 2em 0 2em 4em;
+  padding: 2em 0 2em 5em;
+  margin-left: -1em;
 }
 
 .social-checks {
-  margin: 1em 0.25em 0 0.25em;
+  margin: 1em 0.4em 0 0.4em;
   display: inline;
 }
 
@@ -338,6 +394,18 @@ input[type="checkbox"]:checked + label span {
 
 /*start boxes*/
 
+span.left-banner {
+  position: relative;
+  top: -10.3em;
+  left: -2.2em;
+}
+
+span.right-banner {
+  position: relative;
+  top: -13.1em;
+  left: 14.45em;
+}
+
 .boxes {
   margin-top: 1em;
   align-content: center;
@@ -350,23 +418,23 @@ input[type="checkbox"]:checked + label span {
   box-shadow: 0 2px 3px 3px #b2b2b2;
   margin: 2em 2em 2em 3em;
   max-width:15.5em;
-  max-height: 15.3em;
+  max-height: 14em;
 }
 
 .contacts, .customers {
     background-color: #2394ee;
-    margin: -1.3em -1.1em 0.5em -1.1em;
-    padding: 0.3em 0 0.01em 0;
+    margin: -1.3em -1.1em 0.6em -1.1em;
+    padding: 0.3em 0 0em 0;
 }
 
 .text-lg {
-  font-size: 2em;
+  font-size: 1.7em;
   text-align: center;
   color: #fff;
   margin-bottom: -0.3em;
 }
 .text-sm {
-  font-size: 1em;
+  font-size: 0.9em;
   text-align: center;
   color: #fff;
 }
@@ -399,6 +467,7 @@ div.chart-orange {
 /*start blue box*/
 .slide {
   padding: 1em;
+    margin-left: -1em;
 }
 
 .blue-box {
@@ -427,6 +496,7 @@ div.chart-orange {
 /*http://codepen.io/xram/*/
 /*end blue box*/
 /*start promo*/
+
 #promo {
   background-color: #2498f4;
 }
@@ -459,5 +529,41 @@ div.chart-orange {
 /*start footer*/
 .footer {
   margin-top: 2em;
+}
+.gray-box {
+  margin: 2.5em -4em 0 -4em;
+}
+p.foot {
+  display: inline;
+  color: #777777;
+}
+a.foot {
+  font-weight: bold;
+}
+span.footer-up-arrow {
+  display: inline-flex;
+  float: right;
+}
+
+span.footer-avatar {
+  display: inline-flex;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 0.5em;
+  border-color: #ccc;
+  margin-top: -0.7em;
+}
+
+span.fb {
+  display: inline-flex;
+}
+span.twitter {
+  display: inline-flex;
+}
+span.foursquare {
+  display: inline-flex;
+}
+span.youtube {
+  display: inline-flex;
 }
 /*end footer*/

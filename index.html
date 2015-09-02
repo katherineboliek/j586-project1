@@ -32,33 +32,38 @@
       </div>
     </div> <!--end of top bar-->
 
-    <div class="row menu-background">
-      <div class="opt">
-        <div class="col-xs-1 col-lg-offset-3 col-md-offset-3" id="dash">
+    <div class="row">
+      <div class="menu-background">
+      <div class="col-sm-3 hidden-xs"></div>
+      <div class="container col-sm-6 opt">
+        <a href="index.html"><div class="col-sm-1 col-xs-2 active" id="dash"></a>
           <div class="dashboard-icon"></div>
           <div class="dashboard-hover"></div>
+          <div class="selector"></div>
         </div>
-        <div class="col-xs-1" id="people">
-          <div class="people-icon"></div>
+        <a href="#"><div class="col-sm-1 col-xs-2" id="people"></a>
+          <div class="people-icon"></div></a>
           <div class="people-hover"></div>
         </div>
-        <div class="col-xs-1" id="messaging">
+        <a href="#"><div class="col-sm-1 col-xs-2" id="messaging"></a>
           <div class="messaging-icon"></div>
           <div class="messaging-hover"></div>
         </div>
-        <div class="col-xs-1" id="tag">
+        <a href="#"><div class="col-sm-1 col-xs-2" id="tag"></a>
           <div class="tag-icon"></div>
           <div class="tag-hover"></div>
         </div>
-        <div class="col-xs-1" id="writing">
+        <a href="#"><div class="col-sm-1 col-xs-2" id="writing"></a>
           <div class="writing-icon"></div>
           <div class="writing-hover"></div>
         </div>
-        <div class="col-xs-1" id="graph">
+        <a href="#"><div class="col-sm-1 col-xs-2" id="graph"></a>
           <div class="graph-icon"></div>
           <div class="graph-hover"></div>
         </div>
       </div>
+      <div class="col-md-3 hidden-sm hidden-xs"></div>
+    </div>
     </div> <!--end of navigation-->
 
     <div class="container">
@@ -215,6 +220,10 @@
                 <h2>Analytics</h2>
                 <div class="col-lg-9 col-md-9 col-sm-12 right-border">
                   <p>ACTIVITY</p>
+                  <select id="dropdown">
+                    <option>06/28/11 - 07/21/11</option>
+                    <option> 05/28/11 - 06/27/11</option>
+                  </select>
                   <div class="bar-chart"></div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6">
@@ -252,6 +261,7 @@
 
               <div class="row bottom-border"> <!--start contacts/customers-->
                 <div class="boxes">
+
                   <div class="col-md-6 col-xs-12 white-box">
                       <div class="green-body"></div>
                       <div class="contacts">
@@ -259,7 +269,10 @@
                         <p class="text-sm">4 INFLUENCERS</p>
                       </div>
                       <div class="chart-green"></div>
+                      <span class="left-banner"></span><span class="right-banner"></span>
                   </div>
+
+
                   <div class="col-md-6 col-xs-12 white-box">
                     <div class="orange-body"></div>
                     <div class="contacts">
@@ -267,7 +280,9 @@
                       <p class="text-sm">0 INFLUENCERS</p>
                     </div>
                     <div class="chart-orange"></div>
+                    <span class="left-banner"></span><span class="right-banner"></span>
                   </div>
+
                 </div>
               </div>
               <div class="row slide">
@@ -296,14 +311,29 @@
       </div> <!-- body content-->
     </div> <!-- close container-->
 
+
     <div class="footer">
-      <div class="container-fluid">
-        <div class="row gray-box">
-          <div class="col-md-4">
-          </div>
-          <div class="col-md-4">
-          </div>
-          <div class="col-md-4">
+      <div class="container">
+        <div class="row">
+          <div class="gray-box">
+            <div class="col-md-3">
+              <p class="foot">Tutorials</p>
+              <p class="foot">Support</p>
+              <p class="foot">Blogs</p>
+            </div>
+            <div class="col-md-5">
+              <p class="foot"><a href="#" class="foot">Ariel Winter </a>likes your <a href="#" class="foot">Win A Cooper Sweepstakes </a>Promotion <span class="footer-up-arrow"></span></p>
+            </div>
+            <div class="col-md-2">
+              <span class="footer-avatar"></span>
+              <p class="foot"><a href="#"class="foot">Logout</a></p>
+            </div>
+            <div class="col-md-2">
+              <span class="fb"></span>
+              <span class="twitter"></span>
+              <span class="foursquare"></span>
+              <span class="youtube"></span>
+            </div>
           </div>
         </div>
       </div>
