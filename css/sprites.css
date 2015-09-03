@@ -184,6 +184,14 @@
 	background-size: 100%;
 }
 
+@media screen and (max-width: 768px) {
+  .menu-background {
+  background-color: #154672;
+	min-height: 6em;
+	background-size: 210%;
+  }
+}
+
 @media screen and (max-width: 640px) {
   .menu-background {
   background-color: #154672;
@@ -241,7 +249,7 @@
 }
 
 .question{
-	background-position: -266px -717px ;
+	background-position: -261px -717px ;
 	width: 20px;
 	height: 20px;
 }
